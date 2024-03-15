@@ -19,16 +19,12 @@ suma = lambda num1, num2, num3: num1 + num2 + num3
 print(suma(3,5,7))
 
 """Utilizando la siguiente lista y variable, determine si el valor de la variable coincide o no con un valor de la lista. *Sugerencia, si es necesario, utilice un bucle for in y el operador in.
-
-nombre = 'Enrique'
-
-lista_nombre = 'Jessica', 'Paul', 'George', 'Henry', 'Adán'"""
+"""
 
 lista_nombre = ['Jessica', 'Paul', 'George', 'Henry', 'Adán']
+nombre = 'Enrique'
 
-for nombre in lista_nombre:
-    if nombre == 'Enrique':
-        print('El nombre es igual a Enrique')
-    else:
-        print('El nombre Enrique no está en la lista')
-
+if nombre in lista_nombre:
+    print('El nombre es igual a Enrique')
+else:
+    print('El nombre Enrique no está en la lista')
